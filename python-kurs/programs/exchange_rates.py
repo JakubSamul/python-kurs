@@ -18,3 +18,17 @@ if r.ok == True:
         code = rate["code"]
         mid = rate["mid"]
         print(currency, "code:", code, "value:", mid)
+
+
+def greet(name):
+    print(f"wiaj {name}")
+
+greet("dawid")
+
+ala = 'Alice'
+dawid  = "Dave"
+kuba = "Jacob"
+name = "Alicja: " + ala + " Dawid: " + dawid + " Kuba: " + kuba
+
+name = f"Alicja {ala} Dawid: {dawid} Kuba: {kuba}"
+print(name)
