@@ -69,7 +69,7 @@ names_set2 = {"Mariusz", "Tytus"}
 
 # names_set3 = names_set.union(names_set2) # union twoży nowy set
 
-names_set.update(names_set2) # updejtuje już istniejący set 
+# names_set.update(names_set2) # updejtuje już istniejący set 
 
 for name in names_set:
     print(name)
